@@ -32,3 +32,14 @@ print(f'{first} and {second} have been together for {Timespent} Lovingly')
 newone= '{} & {} have been very happily together for {}' .format(first,second,Timespent)
 
 print(newone)
+
+string1 = "Gate Smashers"
+substr1 = string1[5:10]
+substr2 = string1[:10]
+substr3 = string1[5:]
+substr4 = string1[:]
+substr5 = string1[-8:-3]
+substr6 = string1[5::2]
+substr7 = string1[::-1]
+substr8 = string1[5:12].upper()
+print (substr8)
